@@ -11,9 +11,10 @@ import { FormsModule } from '@angular/forms'
     AppComponent,
     ToDoListComponent
   ],
-  imports: [
-    BrowserModule
-  ],
+    imports: [
+        BrowserModule,
+        FormsModule
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })
